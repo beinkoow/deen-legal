@@ -1,43 +1,233 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="utf-8" />
-  <title>Deen App – Gizlilik Politikası</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <title>Deen – Gizlilik Politikası</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
-    body { max-width: 800px; margin: 40px auto; font-family: Arial; line-height: 1.6; padding: 0 20px; }
-    h1, h2 { color: #222; }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      padding: 16px;
+      max-width: 900px;
+      margin: 0 auto;
+      color: #111827;
+      background-color: #f9fafb;
+    }
+    h1, h2, h3 {
+      color: #111827;
+    }
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      font-size: 1.3rem;
+      margin-top: 1.5rem;
+    }
+    h3 {
+      font-size: 1.1rem;
+      margin-top: 1rem;
+    }
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      margin-left: 1.25rem;
+    }
+    .small {
+      font-size: 0.9rem;
+      color: #4b5563;
+    }
   </style>
 </head>
 <body>
 
-<h1>Gizlilik Politikası</h1>
-<p>Bu Gizlilik Politikası, Deen App (“uygulama”, “biz”, “Deen”) tarafından sunulan hizmetleri kullanırken kişisel verilerinizin nasıl işlendiğini açıklar.</p>
+  <h1>Deen – Gizlilik Politikası</h1>
+  <p class="small">
+    Son güncelleme: 1 Aralık 2025
+  </p>
 
-<h2>1. Toplanan Veriler</h2>
-<ul>
-  <li><strong>Konum Bilgisi:</strong> Namaz vakitlerinin doğru hesaplanması ve konum tabanlı ayarların yapılması için yalnızca ülke/şehir veya GPS koordinasyonu kullanılır. Bu bilgiler cihaz dışına gönderilmez, sunucuda saklanmaz.</li>
-  <li><strong>Cihaz Bilgisi:</strong> Uygulamanın çalışmasını iyileştirmek amacıyla cihaz modeli, işletim sistemi sürümü, hata kayıtları gibi bilgiler anonim olarak işlenebilir.</li>
-  <li><strong>Kullanım Verileri:</strong> Hangi ekranların kullanıldığı, bildirim tercihleri gibi anonim veriler uygulama deneyimini iyileştirmek içindir.</li>
-</ul>
+  <p>
+    Bu Gizlilik Politikası, <strong>Deen</strong> mobil uygulamasını (“Uygulama”) yayınlayan
+    <strong>Deen App</strong> (“Biz”, “Bizler”) tarafından kullanıcıların (“Kullanıcı”, “Siz”)
+    kişisel verilerinin nasıl işlendiğini açıklamaktadır.
+  </p>
 
-<h2>2. Verilerin Kullanımı</h2>
-<p>Toplanan bilgiler namaz vakitlerinin hesaplanması, bildirim zamanlaması, uygulama içi kişiselleştirme ve teknik sorunların giderilmesi amacıyla kullanılır.</p>
+  <p>
+    Uygulamayı kullanarak, bu Gizlilik Politikası’nda açıklanan uygulamaları kabul etmektesiniz.
+    Bu politikayı dikkatlice okumanızı rica ederiz.
+  </p>
 
-<h2>3. Verilerin Paylaşımı</h2>
-<p>Kişisel verileriniz hiçbir şekilde üçüncü taraflara satılmaz, paylaşılmaz veya reklam amaçlı kullanılmaz.</p>
+  <h2>1. Sorumlu Taraf ve İletişim</h2>
+  <p>
+    Uygulama yayıncısı: <strong>Deen App</strong><br />
+    Uygulama adı: <strong>Deen</strong><br />
+    E-posta: <a href="mailto:beinkoom@gmail.com">beinkoom@gmail.com</a>
+    <!-- Burayı kendi mail adresinle değiştir -->
+  </p>
 
-<h2>4. Güvenlik</h2>
-<p>Uygulama içinde işlenen bilgiler yalnızca cihazda tutulur. Sunucuya gönderilen veri bulunmamaktadır (API sorguları haricinde). Sunucuya gönderilen veriler şifreli (HTTPS) bağlantılar kullanır.</p>
+  <h2>2. Topladığımız Veriler</h2>
+  <p>
+    Deen, hesap açma veya kayıt sistemi gerektirmez. Bu nedenle sizden doğrudan ad, soyad,
+    kimlik numarası gibi hassas kişisel veriler talep etmiyoruz.
+  </p>
 
-<h2>5. Kullanıcı Hakları</h2>
-<p>Kullanıcılar istedikleri zaman veri işlenmesini durdurabilir, uygulamayı silebilir veya bizimle iletişime geçebilir.</p>
+  <h3>2.1. Konum Verileri</h3>
+  <p>
+    Namaz vakitlerini ve hava durumunu bulunduğunuz konuma göre gösterebilmek için, cihazınızın
+    <strong>yaklaşık veya kesin konum bilgisine</strong> (GPS, ağ tabanlı konum vb.) erişebiliriz.
+  </p>
+  <ul>
+    <li>Konum verisi, namaz vakitlerinin ve kıble yönünün hesaplanması amacıyla kullanılır.</li>
+    <li>Konum verileri, sunucularımıza kalıcı şekilde kaydedilmez; sadece ilgili API’lere
+        gerekli parametreler olarak iletilir.</li>
+    <li>Konum izni vermemeyi tercih ederseniz, manuel şehir seçimi ile uygulamayı kullanabilirsiniz.</li>
+  </ul>
 
-<h2>6. İletişim</h2>
-<p>Her türlü soru için: <strong>beinkoom@gmail.com</strong></p>
+  <h3>2.2. Cihaz Bilgileri ve Kullanım Verileri</h3>
+  <p>
+    Uygulama performansını iyileştirmek ve hata ayıklamak amacıyla sınırlı teknik bilgi
+    toplanabilir:
+  </p>
+  <ul>
+    <li>Cihaz modeli ve işletim sistemi sürümü</li>
+    <li>Uygulama sürümü</li>
+    <li>Çökme/hata logları (örneğin, beklenmeyen hatalar)</li>
+  </ul>
+  <p>
+    Bu veriler kişisel kimlik bilgilerinizle ilişkilendirilmez ve sadece teknik analiz için
+    kullanılır.
+  </p>
 
-<hr>
-<p>© 2025 Deen App</p>
+  <h3>2.3. Bildirim Verileri</h3>
+  <p>
+    Namaz vakitlerini size hatırlatmak için <strong>yerel bildirimler</strong> kullanıyoruz.
+  </p>
+  <ul>
+    <li>Namaz vakitleri için cihaz üzerinde zamanlanmış yerel bildirimler oluşturulur.</li>
+    <li>Bildirim ayarları (hangi vakitler için bildirim istediğiniz gibi) cihazınızda saklanır.</li>
+    <li>Sunucularımızda kişiye özel bildirim verisi tutulmaz.</li>
+  </ul>
+
+  <h3>2.4. Uygulama İçi Tercihler</h3>
+  <p>
+    Uygulama ayarları ve tercihleri (seçtiğiniz şehir, tema, hesaplama yöntemi, bildirim tercihleri vb.)
+    cihazınızda yerel olarak (<strong>SharedPreferences</strong> benzeri mekanizmalarla) saklanır.
+    Bu veriler uzaktaki bir sunucuya gönderilmez.
+  </p>
+
+  <h3>2.5. Reklam Verileri (Varsa)</h3>
+  <p>
+    Uygulamada Google AdMob veya benzeri reklam ağları kullanılabilir.
+    Bu durumda ilgili üçüncü taraf servisler:
+  </p>
+  <ul>
+    <li>Reklam kimliği (Advertising ID)</li>
+    <li>Yaklaşık konum bilgisi</li>
+    <li>Uygulama içi etkileşimleriniz hakkında anonim veriler</li>
+  </ul>
+  <p>
+    toplayabilir. Bu veriler, <strong>kişisel olarak kimliğinizi belirlemek amacıyla değil</strong>,
+    daha uygun reklamlar göstermek ve dolandırıcılığı önlemek için kullanılır.
+  </p>
+
+  <h2>3. Kullandığımız Üçüncü Taraf Hizmetler</h2>
+  <p>Deen, bazı fonksiyonları sağlamak için üçüncü taraf API ve servislerden yararlanır:</p>
+  <ul>
+    <li><strong>Quran.com API</strong> – Kur’an-ı Kerim metinleri ve cüz bilgileri</li>
+    <li><strong>AlAdhan API</strong> – Namaz vakitleri ve hicrî tarih bilgisi</li>
+    <li><strong>Vakit.vercel.app (Diyanet tabanlı)</strong> – Türkiye için namaz vakitleri</li>
+    <li><strong>OpenWeatherMap</strong> – Hava durumu ve 7 günlük tahmin</li>
+    <li><strong>Google Mobile Ads (AdMob)</strong> – Reklam gösterimi (kullanılıyorsa)</li>
+  </ul>
+  <p>
+    Bu servisler, kendi gizlilik politikalarına tabidir. Bu üçüncü tarafların veri işleme
+    süreçleri üzerinde doğrudan kontrolümüz bulunmamaktadır.
+  </p>
+
+  <h2>4. Verilerin Kullanım Amaçları</h2>
+  <p>Toplanan verileri aşağıdaki amaçlarla kullanıyoruz:</p>
+  <ul>
+    <li>Namaz vakitlerini doğru şekilde hesaplamak ve göstermek</li>
+    <li>Konuma göre Kıble yönü ve hava durumu bilgisi sağlamak</li>
+    <li>Namaz vakitleri için yerel bildirimler planlamak</li>
+    <li>Uygulama performansını iyileştirmek ve hataları gidermek</li>
+    <li>Reklam göstermek (kullanılıyorsa)</li>
+  </ul>
+
+  <h2>5. Verilerin Saklanması ve Güvenliği</h2>
+  <ul>
+    <li>Kişisel verileriniz uygulama içinde <strong>yalnızca gerekli olduğu süre boyunca</strong> saklanır.</li>
+    <li>Ayarlar ve tercihler cihazınızda yerel olarak tutulur.</li>
+    <li>Veriler, yetkisiz erişime karşı uygun teknik ve idari tedbirlerle korunmaya çalışılır.</li>
+  </ul>
+
+  <h2>6. Çerezler ve Benzeri Teknolojiler</h2>
+  <p>
+    Uygulamanın kendisi tarayıcı çerezi kullanmaz. Ancak üçüncü taraf reklam sağlayıcıları ve
+    analitik hizmetleri, kendi sistemlerinde çerez veya benzeri teknolojiler kullanabilir.
+  </p>
+
+  <h2>7. Çocukların Gizliliği</h2>
+  <p>
+    Deen, genel kitle için tasarlanmış olup, dini içerik sunar ve çocuklar tarafından da
+    kullanılabilir. Uygulama üzerinden 13 yaş altı çocuklardan bilerek kişisel veri toplamayız.
+  </p>
+  <p>
+    Bir çocuktan ebeveyn izni olmadan kişisel veri topladığımızı fark ederseniz,
+    lütfen <a href="mailto:beinkoom@gmail.com">beinkoom@gmail.com</a> adresinden bizimle
+    iletişime geçin; ilgili verileri silmek için gerekli işlemleri yapacağız.
+  </p>
+
+  <h2>8. Haklarınız</h2>
+  <p>
+    Bulunduğunuz ülkenin veri koruma mevzuatına bağlı olarak aşağıdaki haklara sahip
+    olabilirsiniz:
+  </p>
+  <ul>
+    <li>Hakkınızda tutulan verilere erişim talep etme</li>
+    <li>Yanlış veya eksik verilerin düzeltilmesini talep etme</li>
+    <li>Verilerinizin silinmesini talep etme (yasal saklama yükümlülükleri saklıdır)</li>
+    <li>Veri işlenmesine itiraz etme veya sınırlandırılmasını talep etme</li>
+  </ul>
+  <p>
+    Bu haklarınızı kullanmak için bizimle
+    <a href="mailto:beinkoom@gmail.com">beinkoom@gmail.com</a> üzerinden iletişime geçebilirsiniz.
+  </p>
+
+  <h2>9. Veri Paylaşımı</h2>
+  <p>
+    Verilerinizi, aşağıdaki durumlar dışında üçüncü kişilerle <strong>satmayız veya ticari
+    amaçla paylaşmayız</strong>:
+  </p>
+  <ul>
+    <li>Yasal yükümlülüklerimizi yerine getirmek için gerektiğinde</li>
+    <li>Dolandırıcılık veya güvenlik ihlallerini önlemek için zorunlu olduğunda</li>
+    <li>Uygulamanın işlenmesi ve bakımı için teknik hizmet sağlayıcılarla, sadece gerekli
+        olduğu kadar ve gizlilik taahhütleri ile sınırlı şekilde</li>
+  </ul>
+
+  <h2>10. Gizlilik Politikasındaki Değişiklikler</h2>
+  <p>
+    Bu Gizlilik Politikası zaman zaman güncellenebilir. Önemli değişiklikler olması halinde,
+    uygulama içi bir bildirim veya güncel metni göstererek sizi bilgilendirebiliriz.
+  </p>
+  <p>
+    En güncel versiyon her zaman bu sayfada yer alacaktır. “Son güncelleme” tarihi sayfanın
+    başında belirtilir.
+  </p>
+
+  <h2>11. İletişim</h2>
+  <p>
+    Bu Gizlilik Politikası ile ilgili sorularınız veya talepleriniz için bizimle
+    <a href="mailto:beinkoom@gmail.com">beinkoom@gmail.com</a> adresi üzerinden iletişime
+    geçebilirsiniz.
+  </p>
 
 </body>
 </html>
